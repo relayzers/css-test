@@ -1,0 +1,30 @@
+* {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.tag {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  transition: opacity 1s ease;
+  color: white;
+  text-decoration: none !important;
+  background-color: black;
+  align-items: center;
+  font-size: 30px;
+  position: absolute;
+  inset: 0;
+  padding-top: 400px;
+  text-align: center;
+  display: inline-block;
+}/*# sourceMappingURL=hello.css.map */

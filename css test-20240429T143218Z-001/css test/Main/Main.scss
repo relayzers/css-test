@@ -1,0 +1,106 @@
+*{  
+    transition: 1s;
+    margin-top: 20px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.fade-in.loaded {
+    opacity: 1;
+}
+
+.mainDiv{
+    z-index: 1;
+    width: 1120px;
+    height: fit-content;
+    margin: 50px auto;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter:blur(5px);
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 200px;
+    padding: 30px;
+    a{ 
+        color: gray;
+        font-size: 30px;
+        transition: all .5s;
+        &:hover{color: black;}
+        font-weight: bold 900 ;
+    }
+}
+h1{position: sticky;
+width: 200px; margin-left: 55px;}
+.cardDiv{
+    width: 1320px;
+    height: fit-content;
+    margin: 50px auto;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid gray;
+    z-index: 1;
+    border-radius: 40px;
+    background-color: gray;
+    padding: 70px;
+    div{
+        overflow: hidden;
+        border-radius: 20px;
+        img{
+            border-radius: 20px;
+            margin: 0 auto !important;
+            width: 250px;
+            height: 250px; 
+            object-fit: cover;
+        }}
+    }
+    button{
+        h3{
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: -10px;
+    }
+}
+.card{
+    display: flex;
+    h1{overflow: hidden;align-items: center;
+    }
+    padding: 20px;
+    border-radius: 20px;
+    background-color:wheat;
+    box-shadow: rgb(49, 63, 145) 5px 10px 100px 40px;
+    img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    }
+}
+.showmenu{
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-top: 82px;
+    z-index: 2;
+    font-size: 30px;
+    top: -70px;
+    position: fixed;
+    width: 95px;
+    height: 230px;
+    transition: 0.3s;
+    display: none;
+    background-color: rgb(64, 102, 102);
+    a{color: white;margin-left: 15px;}
+} 
+.whatsapp{transition: 0.3s;&:hover{ color: rgb(0, 255, 0);}}
+.instagram{transition: 0.3s;&:hover{color: rgb(255, 0, 179);}}
+.facebook{transition: 0.3s;&:hover{color:#00c6ff;}}
+.twitter{transition: 0.3s;&:hover{color: gray;}}
+.tiktok{transition: 0.3s;&:hover{color: rgb(111, 0, 255);}}
